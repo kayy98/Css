@@ -1,0 +1,57 @@
+nav {
+  background-color: greenyellow;
+}
+h1 {
+  background-color: gold;
+  color: goldenrod;
+}
+#hero-section {
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-right: 90px;
+  padding-left: 49px;
+  background-color: blue;
+}
+
+#client-section {
+  background-color: gray;
+}
+
+.parent {
+  background-color: blueviolet;
+}
+.child {
+  background-color: aqua;
+}
+.child2 {
+  background-color: blue;
+}
+
+.komunitas-parent{
+    background-color: red;
+    padding-right: 4px;
+}
+.komunitas-child{
+    background-color: blue;
+    margin-top: 50px;
+    margin: 45px;
+
+}
+.komunitas-child-2{
+    background-color: blue;
+}
+ 
+h2,h3,h4{
+    color: greenyellow;
+    background-color: blueviolet;
+}
+
+cust {
+    background-color: rgb(red, green, blue);
+    margin: 100px;
+}
+
+input[name="username"] {
+  background-color: bisque;
+  
+}

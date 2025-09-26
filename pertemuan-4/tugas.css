@@ -1,0 +1,17 @@
+body{
+    background-image: url(./Rectangle\ 2.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 35px;
+    padding: 100px;
+}
+#tombol{
+    background-color: green;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 2px;
+ }
