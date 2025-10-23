@@ -1,0 +1,35 @@
+.container-one {
+  display: flex;
+  flex-direction: row;
+  background-color: aquamarine;
+  justify-content: space-between;
+
+  align-items: center;
+}
+.container-two {
+ background-color: greenyellow;
+ margin-left: 5%;
+ margin-right: 5%;
+
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ align-items: center;
+}
+
+.boxy{
+  background-color: gold;
+} 
+.parg-left{
+  background-color: yellow;
+  
+}
+.icikiwir{
+  background-color: red;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+

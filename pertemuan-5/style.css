@@ -1,0 +1,33 @@
+.item {
+  background-color: green;
+  color: white;
+  height: 50px;
+  width: 20%;
+  margin-right: 20px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  background-color: aquamarine;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+}
+.icikiwir {
+  background-color: aquamarine;
+  color: greenyellow;
+  height: 50px;
+  width: 20%;
+  margin-right: 20px;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    background-color: blue;
+}

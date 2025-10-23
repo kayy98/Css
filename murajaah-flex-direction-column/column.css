@@ -1,0 +1,36 @@
+.container{
+    background-color: blue;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.container-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-3{
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.klm-1{
+    background-color: greenyellow;
+}
+
+.klm-2{
+    background-color: gold;
+}
+
+@media (min-width:415px){
+    .container-3{
+        background-color: red;
+        
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 10%;
+    }
+}

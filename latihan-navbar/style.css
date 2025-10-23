@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: black;
+  font-family: "Lato", sans-serif;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+.logo {
+  color: red;
+  text-transform: uppercase;
+  font-family: "K2D", sans-serif;
+}
+.btn {
+  background-color: orangered;
+  color: white;
+  border-radius: 5px;
+  padding: 5px 30px;
+  margin: 5px;
+}
+
+.container-12 {
+}
+
+.Rafka-99 {
+  color: orangered;
+}
+
+.Mampuak-11 {
+  background-color: orangered;
+  color: white;
+  border-radius: 5px;
+  padding: 8px 20px;
+  margin: 5px;
+}
+
+.kaymay-1 {
+  background-color: grey;
+  border-radius: 5px;
+  padding: 8px 20px;
+  margin: 5px;
+}
+nav {
+  display: none;
+  margin-right: 15%;
+}
+
+nav {
+  display: block;
+}
+
+.HOME {
+  color: orangered;
+}
+
+nav ul {
+  list-style: none;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 5%;
+  margin-left: 5%;
+  line-height: 35px;
+}
+
+nav ul {
+  display: none;
+}
+
+.right-img img {
+  width: 100%;
+}
+
+.right-img {
+  width: 200px;
+}
+
+.left-text {
+  line-height: 40px;
+}
+.unibakwan {
+  background-color: rgb(68, 68, 71);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 10px;
+  padding: 5px;
+}
+.port-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 16px;
+}
+.port-1 p {
+}
+
+.line {
+  width: 1px;
+  background-color: black;
+  height: 40px;
+}
+
+@media (min-width: 391px) {
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 10%;
+    margin-left: 10%;
+    font-size: 30px;
+    color: gray;
+  }
+  .right-img {
+    width: 500px;
+  }
+  .icon-bar {
+    display: none;
+  }
+  .left-text {
+    line-height: 60px;
+    color: grey;
+  }
+
+  .port-1 p {
+    align-items: center;
+  }
+  nav ul {
+    width: 700px;
+    list-style: none;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    color: grey;
+  }
+  header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 10%;
+    margin-left: 10%;
+  }
+}

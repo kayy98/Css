@@ -1,0 +1,43 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  background-color: blue;
+
+  justify-content: space-between;
+}
+.container-two {
+  display: flex;
+  flex-direction: row;
+  background-color: blue;
+
+  justify-content: space-around;
+}
+
+.container-three {
+  display: flex;
+  flex-direction: row;
+  background-color: blue;
+
+  justify-content: space-evenly ;
+}
+.container-four {
+  display: flex;
+  flex-direction: row;
+  background-color: blue;
+
+  justify-content: flex-end;
+}
+.container-five {
+  display: flex;
+  flex-direction: row;
+  background-color: blue;
+
+  justify-content: center;
+}
+.container- {
+  display: flex;
+  flex-direction: row;
+  background-color: blue;
+
+  justify-content: flex-start;
+}

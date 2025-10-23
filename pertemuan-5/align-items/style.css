@@ -1,0 +1,24 @@
+.container-one {
+  height: 100vh;
+  background-color: brown;
+  display: flex;
+  flex-direction: row;
+  
+  align-items: flex-end;
+}
+.container-two {
+  height: 100vh;
+  background-color: brown;
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+}
+.container-three {
+  height: 100vh;
+  background-color: brown;
+  display: flex;
+  flex-direction: row;
+
+  align-items: flex-start;
+}

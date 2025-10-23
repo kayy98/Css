@@ -1,0 +1,68 @@
+.container {
+  background-color: antiquewhite;
+  height: 100vh;
+ 
+font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.klm-2 {
+  background-color: pink;
+  width: 10vh;
+  border-radius: 5px;
+}
+
+.container-2{
+   background-color: rgb(226, 147, 43) ;
+   /* height: 100vh; */
+   /* padding: 50%; */
+
+   font-size: 20px;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-end;
+   align-items: center;
+   
+}
+
+.wrap-img img{
+  width: 100%;
+}
+
+.wrap-img {
+  width: 90%;
+}
+
+.bgks-img img{
+  width: 100%;
+}
+
+.bgks-img {
+  width: 90%;
+}
+
+
+.Aseloli{
+  background-color: pink;
+  width: 10vh;
+  border-radius: 5px;
+}
+
+
+
+
+
+
+
+@media (min-width:415px){
+      .container{
+        background-color: red;
+        flex-direction: row;
+        justify-content: space-between;
+      }
+
+      .bgks-img{
+        width: 700px;
+      }
+}

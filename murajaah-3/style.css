@@ -1,0 +1,25 @@
+.hero{
+    background-color: bisque;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between ;
+    align-items: center;
+    margin: 0 5%;
+
+}
+
+.kolom-1{
+    background-color: greenyellow ;
+    order: 1;
+}
+
+.kolom-2{
+    background-color: blue;
+    
+}
+.btn{
+    background-color: pink;
+    color: #fff;
+    padding: 10px 20px ;
+    border-radius: 10px;
+}

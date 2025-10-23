@@ -1,0 +1,28 @@
+p{
+    text-align: right;
+}
+.text-arab{
+    
+    direction: rtl;
+    text-align: center;
+}
+.text-dec{
+    text-decoration: overline double blue;
+    text-transform: uppercase;
+}
+.text-space{
+    text-indent: 70px;/**spasi di awal paragraf*/
+    letter-spacing:2px;/**spasi antar huruf*/
+    line-height:70px;/**spasi antar baris*/
+    word-spacing: 20px; /**spasi antar kata*/
+    white-space: break-spaces;
+}
+.text-overflow{
+    /* background-color: greenyellow; */
+    width: 320px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    text-shadow: 1px 1px 1px gray;
+}
