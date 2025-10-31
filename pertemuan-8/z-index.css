@@ -1,0 +1,16 @@
+.card-one{
+    width: 500px;
+    height: 500px;
+    background-color: gold;
+    position: relative;
+}
+
+.header-content-card{
+    width: 200px;
+    height: 200px;
+    background-color: darkgoldenrod;
+    position: absolute;
+    right: -20px;
+    bottom: 0;
+    z-index: 2;
+}

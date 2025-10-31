@@ -23,21 +23,23 @@ header {
 .btn {
   background-color: orangered;
   color: white;
+  border: none;
   border-radius: 5px;
   padding: 5px 30px;
   margin: 5px;
 }
 
-.container-12 {
+.container-2 {
 }
 
 .Rafka-99 {
   color: orangered;
 }
 
-.Mampuak-11 {
+.Button-1 {
   background-color: orangered;
   color: white;
+  border:none;
   border-radius: 5px;
   padding: 8px 20px;
   margin: 5px;
@@ -45,13 +47,23 @@ header {
 
 .kaymay-1 {
   background-color: grey;
+  border: none;
   border-radius: 5px;
   padding: 8px 20px;
   margin: 5px;
 }
+.paragraf-1 {
+  color: orange;
+  font-weight: bold;
+}
+.paragraf-2{
+  color: white;
+}
+.Gp-1{
+  margin-top: 10px;
+}
 nav {
   display: none;
-  margin-right: 15%;
 }
 
 nav {
@@ -84,9 +96,12 @@ nav ul {
 nav ul {
   display: none;
 }
+.icon-bar {
+  color: grey;
+}
 
 .right-img img {
-  width: 100%;
+  width: 160%;
 }
 
 .right-img {
@@ -95,8 +110,9 @@ nav ul {
 
 .left-text {
   line-height: 40px;
+  color: gray;
 }
-.unibakwan {
+.box-ratting {
   background-color: rgb(68, 68, 71);
   display: flex;
   flex-direction: row;
@@ -119,6 +135,38 @@ nav ul {
   height: 40px;
 }
 
+/* section services */
+.container-service{
+  margin: 0 10%;
+  text-align: center ;
+}
+.category{
+  color: white;
+  font-size: 20px;
+  align-items: center;
+}
+.paragraf-services{
+  color: gray;
+  font-size: 15px;
+}
+.box-card-service{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.card-services{
+  background-color: blue;
+  width: 48%;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+}
+.H1-services{
+  font-size: 20px;
+}
+
+
+
 @media (min-width: 391px) {
   .container {
     display: flex;
@@ -135,10 +183,14 @@ nav ul {
   }
   .icon-bar {
     display: none;
+    color: gray;
   }
   .left-text {
     line-height: 60px;
     color: grey;
+  }
+  .right-img img {
+    width: 80%;
   }
 
   .port-1 p {
@@ -159,7 +211,11 @@ nav ul {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin-right: 10%;
+    margin-right: 10%;  
     margin-left: 10%;
   }
+}
+.box-ratting{
+  padding: 13px;
+  margin: 15px 0;
 }
