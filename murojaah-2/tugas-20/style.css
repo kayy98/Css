@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Kode+Mono:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Syne:wght@400..800&display=swap');
+* {
+   font-family: "Cormorant", serif;
+   margin: 0px;
+   padding: 0px;
+}
+
+.judul-1 {
+    font-weight: 700;
+    font-size: 79px;
+    text-align: center;
+}
+.judul-text {
+    background-color: rgba(255, 255, 255, 1);
+}
+.judul-2 {
+    font-weight: 400;
+    text-align: center;
+    font-size: 17px;
+}
+.under-line {
+    text-decoration: underline solid;
+    font-style: italic  ;
+}
+.box-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.text {
+    font-weight:300;
+}
+.text-1 {
+    font-weight:300;
+    font-style: italic;
+}
+.text-2 {
+    font-weight: 400;
+}
+.text-3 {
+    font-weight:400 ;
+    font-style: italic;
+}
+.text-4{
+    font-weight: 500;
+}
+.text-5 {
+    font-weight:500 ;
+    font-style: italic;
+}
+.text-6 {
+    font-weight:600;
+}
+.text-7 {
+    font-weight: 600;
+    font-style: italic;
+}
+.text-8{
+    font-weight: 700;
+}
+.text-9 {
+    font-weight: 700;
+    font-style: italic;
+}
+
+.paragraf-judul {
+    font-weight: 400;
+    font-size: 29px;
+}
+.box-content1 {
+    text-align: left;
+} 
+.box-paragraf {
+    text-align: left;  
+}
+.abjat-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Abjat-3 {
+    text-align:left;
+    display: flex;
+    justify-content: center;
+    letter-spacing: 15px;
+    font-size: 23px;
+    font-weight: 400;
+}
+.contoh-abjat {
+    font-size: 92px;
+    font-weight: 400;
+}
+

@@ -157,13 +157,24 @@ nav ul {
   gap: 10px;
 }
 .card-services{
-  background-color: blue;
+  background-color: gray;
+  border-radius: 10px;
+  border: none;
   width: 48%;
   box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
 }
 .H1-services{
   font-size: 20px;
 }
+
+/*Section About*/
+
+.paragraf-about{
+  color: gray;
+  font-size: 15px;
+}
+
+
 
 
 
